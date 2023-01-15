@@ -1,0 +1,79 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+.container{
+       height: 100vh;
+       width: 100vw;
+       background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/bg.jpg);
+       background-size: cover;       
+}
+.navbar{
+       width: 100%;
+       height: 3rem;
+       overflow: hidden;
+       padding: 5px 0px;
+}
+.navbar .logo{
+       height: 3rem;
+       width: 3rem;
+       float: left;
+       margin-left: 1rem;
+       display: inline;
+}
+.navbar .logo img{
+       height: 3rem;
+       width: 3rem;
+}
+.navbar li{
+       float: left;
+       list-style: none;
+       margin: 0.5rem 1rem;
+}
+.navbar li a{
+       text-decoration: none;
+       color: #4cb8c4;
+       display: block;
+       padding: 0.2rem 0.5rem;
+       font-size: 1.2rem;
+       font-weight: bold;
+       border-radius: 50%;
+       transition-duration: 500ms;
+}
+.navbar li a:hover{
+       border-bottom: 2px solid #4cb8c4;
+}
+.navbar .login a, .navbar .signup a{
+       border: 1px solid #4cb8c4;
+       border-radius: 2rem;
+}
+.navbar .login, .navbar .signup{
+       float: right;
+}
+.navbar .signup a{
+       background: linear-gradient(#4cb8c4, #3cd3ad);
+       color: white;
+}
+.navbar .signup a:hover, .navbar .login a:hover{
+       color: #4cb8c4;
+       background: transparent;
+       box-shadow: 1px 1px 5px #4cb8c4;
+}
+.left_container{
+       float: left;
+       width: 49%;
+       margin-top: 7rem;
+}
+.left_container h1{
+       font-size: 3rem;
+       margin: 0.5rem 3rem;
+}
+.left_container div{
+       font-size: 1.2rem;
+       margin: 0.5rem 3rem;
+}
+.right_container{
+       float: right;
+       width: 49%;
+       margin-top: 7rem;
+}
